@@ -1,0 +1,51 @@
+baseURL = 'https://badza.dev/'
+languageCode = 'en-us'
+title = 'Badza.dev'
+theme = 'archie'
+copyright = "© 2025 Badza.dev"
+
+# Number of posts per page
+[pagination]
+    pagerSize = 5
+
+[params]
+  mode = "light" # color mode: auto, dark, light
+  useCDN = false
+  subtitle = "Technical writing and random thoughts"
+
+  # Optional: Social links
+  [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    url = "https://github.com/badza"
+
+  [[params.social]]
+    name = "LinkedIn"
+    icon = "linkedin"
+    url = "https://linkedin.com/in/badza"
+
+# Main menu
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4
+
+# Syntax highlighting for code
+[markup]
+  [markup.highlight]
+    style = "monokai"
